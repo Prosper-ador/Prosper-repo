@@ -1,48 +1,48 @@
 Package: wazuh-agent-bundle-snort
 Architecture: amd64
-Version: 1.8.3~test
+Version: 1.8.4~test
 Priority: optional
 Maintainer: ADORSYS-GIS <security@adorsys-gis.com>
 Installed-Size: 10
-Depends: wazuh-agent-bundle (= 1.8.3-test), wazuh-snort
-Filename: pool/main/w/wazuh-agent-bundle/wazuh-agent-bundle-snort_1.8.3~test_amd64.deb
-Size: 4552
-MD5sum: dd199f764f00862bf3295db4b41145df
-SHA1: ced22ac7645bd868a473f626603bd2564991f49b
-SHA256: 5b66e4a0487bcacc5d59442dba9a4db8cce16313d580638b1b4c1820530bd87c
-SHA512: 03136571218c12c5bd731ad8902da17ded3411dda5540e65503499a2b80344bf0a5a0c8c9ec12fb476b643411f304fc4eca4f1e37d9d6bf18f9b01acb87748c8
+Depends: wazuh-agent-bundle (= 1.8.4-test), wazuh-snort
+Filename: pool/main/w/wazuh-agent-bundle/wazuh-agent-bundle-snort_1.8.4~test_amd64.deb
+Size: 4554
+MD5sum: 5ad6e0fd4be5577e5e413e015a387a4f
+SHA1: b8a03ac97367784e979b8568577aa26e2b32f09d
+SHA256: 30b5fce22aecf528bdabe602d8ae08654b49e22e02f21e95dbb9564609ceae05
+SHA512: b5171ec9292a1e18717c0794149e61b6ec99ae35840278a96c4ec1f3bccf0c798e11e031bae966421edf49814bb34e98f3c8bcd6cf35a1dbc2526e24d713081f
 Homepage: https://github.com/ADORSYS-GIS/wazuh-agent
 Description: Bundled Wazuh agent with ADORSYS-GIS security plugins and Snort IDS
 
 Package: wazuh-agent-bundle-suricata
 Architecture: amd64
-Version: 1.8.3~test
+Version: 1.8.4~test
 Priority: optional
 Maintainer: ADORSYS-GIS <security@adorsys-gis.com>
 Installed-Size: 10
-Depends: wazuh-agent-bundle (= 1.8.3-test), wazuh-suricata
-Filename: pool/main/w/wazuh-agent-bundle/wazuh-agent-bundle-suricata_1.8.3~test_amd64.deb
-Size: 4558
-MD5sum: e63c787280f6b9e47ee964c04ce9be7a
-SHA1: bac8134d9e5d1ca349f21037ab12b733e9ec5381
-SHA256: c405402d0f4f3d49b7ec588e16c5243feed84f3b2516dcfa3e3938f5e0acebe7
-SHA512: 8972d2c8b474b82d887e38a83fbc948e57a27657ca8ae751d5fbeb6daca902f103fa943dd5d2b8afe85b26aed2d403c18811b8459c648b0875925387f30e9a3b
+Depends: wazuh-agent-bundle (= 1.8.4-test), wazuh-suricata
+Filename: pool/main/w/wazuh-agent-bundle/wazuh-agent-bundle-suricata_1.8.4~test_amd64.deb
+Size: 4562
+MD5sum: 02f6938cf58e64df9f2e7abd9de543d1
+SHA1: f5da9e282cc1910521737439988a79fd7050d4c1
+SHA256: 275bfa4f3b0196ba672096906eb4f57dfebf4bfc37cd2ee0fff83fcebe662d62
+SHA512: 211e8c2730207c1cf6f948b42577645c46df42dc47e2d31aeb6cff21aced8eb397a00f116e64e9eb9dd43764b9db353978b3f24ab55ba6e79c3a8a70490ce43d
 Homepage: https://github.com/ADORSYS-GIS/wazuh-agent
 Description: Bundled Wazuh agent with ADORSYS-GIS security plugins and Suricata IDS/IPS
 
 Package: wazuh-agent-bundle
 Architecture: amd64
-Version: 1.8.3~test
+Version: 1.8.4~test
 Priority: optional
 Maintainer: ADORSYS-GIS <security@adorsys-gis.com>
 Installed-Size: 10
 Depends: wazuh-agent (>= 4.0.0), wazuh-cert-oauth2-client, wazuh-agent-status, wazuh-yara
-Filename: pool/main/w/wazuh-agent-bundle/wazuh-agent-bundle_1.8.3~test_amd64.deb
-Size: 4562
-MD5sum: 57b7b8e29756f05b06bb14dd19904b66
-SHA1: dfcd9ad38ebb09b18e65922568865dadb2d6fab1
-SHA256: b6e63068efb6b1a5db387331dbe4b6a5d66d687de3b2c24172aeb2666de67e9f
-SHA512: 1d1bdd399f90f2e2e74652e4f3cb9cdf2e911c162ed078f24874600cf61ea2627bc96440261f27add0f5c301f5d90b194c21a18187ae5428bc7d63d2832c64eb
+Filename: pool/main/w/wazuh-agent-bundle/wazuh-agent-bundle_1.8.4~test_amd64.deb
+Size: 4566
+MD5sum: b58c7d7de4a00fb098381b8995f1195f
+SHA1: 3e5f76432509f1f4c9d2c2cf2660b7ce46243c1e
+SHA256: 35fe8268cbc8f8f15698c7afa3ff5a0453b5baafdde8172281f8ca147bbc0753
+SHA512: 5721a46184764333e3e7fffe508d4ac7f08605c19454d32d2831407c4a6eadd1991cec10b13e3188ee89204a2560f7535fe5af59952ed783259d17695ac4a103
 Homepage: https://github.com/ADORSYS-GIS/wazuh-agent
 Description: Bundled Wazuh agent with ADORSYS-GIS security plugins
 
